@@ -1,25 +1,21 @@
-# Reflection-Grocery-Tracking-Program-CS210-
-C++ program that analyzes grocery purchase data, calculates item frequencies, generates reports and histograms, and demonstrates file I/O, data structures, and modular design.
-Project Summary
+# CS 300 Portfolio Reflection
 
-The Grocery Tracking Program was designed to analyze purchase data from a text file and determine how frequently each item was bought throughout the day. The program allows users to search for individual item frequencies, view a complete list of item counts, and display a histogram for visual representation. This project solves the problem of understanding customer purchasing patterns so that a grocery store can make informed decisions about product placement and inventory.
+## Project One: Data Structures Analysis
 
-What I Did Particularly Well
+In Project One, I analyzed the run-time and memory usage of different data structures. The goal was to compare options such as vectors, hash tables, and binary search trees to determine which structure would be most efficient for storing, searching, and printing course information.
 
-One area I did particularly well was implementing file input and data processing using maps to efficiently count item frequencies. I also focused on building a clear menu system that allows users to interact with the program easily. Additionally, I ensured the program created a backup data file automatically, which demonstrates attention to reliability and data persistence.
+## Project Two: Course Planner Program
 
-Where I Could Enhance My Code
+In Project Two, I created a working C++ program that reads course information, sorts the courses in alphanumeric order, and prints the course list for the Computer Science program. This project helped me understand how data structures can be used to organize and retrieve information efficiently.
 
-I could improve the program by adding more robust error handling, such as validating user input more thoroughly and handling unexpected file formatting issues. Performance could also be improved by optimizing how data is stored and potentially allowing dynamic updates without restarting the program. These improvements would make the software more secure and resilient in real-world scenarios.
+## Reflection
 
-Most Challenging Part and How I Overcame It
+The main problem I was solving in these projects was how to organize and access course data in an efficient way. Data structures are important because they affect how quickly a program can search, sort, insert, and display information. Choosing the right data structure can make a program faster, easier to maintain, and better suited for real-world use.
 
-The most challenging part was working with file paths and ensuring the program could correctly locate and read the input file. Debugging issues related to working directories required careful testing and troubleshooting. I overcame this by reviewing documentation, testing different configurations in Visual Studio, and using debugging output to verify program behavior. Resources such as course materials, documentation, and troubleshooting strategies helped me resolve the issue.
+I approached the problem by first reviewing the requirements and then considering which data structure would work best for the task. I learned that each structure has strengths and weaknesses. For example, vectors are simple and easy to use, hash tables are useful for fast lookups, and binary search trees are helpful for keeping data organized in sorted order.
 
-Transferable Skills
+One roadblock I encountered was making sure the program correctly read the course data and printed it in the required order. I overcame this by testing the program, reviewing errors carefully, and breaking the problem into smaller steps. This helped me understand where issues were happening and how to fix them.
 
-This project strengthened my skills in C++ programming, problem solving, debugging, and working with file input/output operations. I also gained experience designing user-friendly interfaces and using data structures like maps to manage information efficiently. These skills will transfer directly to future programming projects and real-world software development tasks.
+Working on these projects expanded the way I approach software design. I now think more carefully about planning before coding, choosing the right structure for the problem, and writing code that can be understood by another programmer. I also learned the importance of documenting my work so that someone reviewing my GitHub portfolio can understand what the project does and why I made certain design choices.
 
-Maintainability, Readability, and Adaptability
-
-To make the program maintainable and readable, I used clear variable names, organized the code into functions, and included comments to explain key logic. The menu-driven structure makes it easy to extend functionality in the future, such as adding new reporting features or integrating different data sources. Following consistent coding practices ensures the program can be updated or modified with minimal difficulty.
+This project also helped me improve the way I write programs that are maintainable, readable, and adaptable. I focused on organizing the code into functions, using clear names, and keeping the logic easy to follow. These habits will help me continue improving as a programmer and prepare me for future projects.
